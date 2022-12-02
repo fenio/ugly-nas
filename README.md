@@ -1,5 +1,5 @@
 # ugly-nas
-DIY 8-disks NAS based on Odroid H3+
+DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 
 # Cost (November 2022):
  * Odroid H3+ - $165
