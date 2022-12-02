@@ -29,7 +29,8 @@ Hell yeah!
 Yup.
 
 Without disks it's below $500 ;)
-Also it should work pretty decent if you switch:
+
+Also it should still work pretty decent if you switch:
   * H3+ -> H3 - 36$ less
   * eMMC 64GB -> 32GB - $13 less
   * RAM 32GB -> 16GB - $54 less
