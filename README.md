@@ -16,7 +16,7 @@ And yes it looks ugly as of now.
  * Thermaltake 6-bays case - $50
  * additional PSU for case - $10
  * MOLEX splitter - $2
- * PCI-E SATA externder for 6 ports - $24.80
+ * PCI-E SATA extender for 6 ports - $24.80
 
 Sum: $823.53
 
