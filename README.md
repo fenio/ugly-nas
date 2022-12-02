@@ -1,9 +1,10 @@
 # ugly-nas
 DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 
-| Part  | pcs  | price  | sum  |
-|-------|------|--------|------|
-| Odroid H3+ | 1 | 165 | 165 |
+# why is it ugly?
+Cause I didn't have time / skills to create case for it.
+And yes it looks ugly as of now.
+
 
 # Cost (November 2022):
  * Odroid H3+ - $165
@@ -20,3 +21,14 @@ DIY 8-disks NAS based on Odroid H3+ under $1k with disks
  * PCI-E SATA externder for 6 ports - $24.80
 
 Sum: $823.53
+
+# Does it work?
+Hell yeah!
+
+# Can it be any cheaper?
+Yup.
+
+
+| Part  | pcs  | price  | sum  |
+|-------|------|--------|------|
+| Odroid H3+ | 1 | 165 | 165 |
