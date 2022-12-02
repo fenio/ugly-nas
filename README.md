@@ -1,6 +1,10 @@
 # ugly-nas
 DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 
+| Part  | pcs  | price  | sum  |
+|-------|------|--------|------|
+| Odroid H3+ | 1 | 165 | 165 |
+
 # Cost (November 2022):
  * Odroid H3+ - $165
  * 64GB eMMC Module - $39.90
@@ -14,4 +18,5 @@ DIY 8-disks NAS based on Odroid H3+ under $1k with disks
  * additional PSU for case - $10
  * MOLEX splitter - $2
  * PCI-E SATA externder for 6 ports - $24.80
+
 Sum: $823.53
