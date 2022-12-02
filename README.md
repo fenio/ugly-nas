@@ -5,6 +5,7 @@ Cause I didn't have time / skills to create case for it.
 And yes it looks ugly as of now.
 
 ![front](IMG_0771.jpeg)
+![back](IMG_0772.jpeg)
 
 # Cost (November 2022):
  * Odroid H3+ - $165
