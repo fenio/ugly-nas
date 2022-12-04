@@ -44,7 +44,7 @@ It runs TrueNAS Scale
 
 # Ignore for now... still learning markdown :P
 | Part  | USD  |
-|-------|--------|
+|-------|--------:|
 | [Odroid H3+](https://www.hardkernel.com/shop/odroid-h3-plus/) | 165.00 |
 | [64GB eMMC Module](https://www.hardkernel.com/shop/64gb-emmc-module-h2/) | 39.90 |
 | [Samsung 32GB DDR4](https://www.hardkernel.com/shop/samsung-32gb-ddr4-pc4-25600-so-dimm/) | 107.00 |
