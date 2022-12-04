@@ -45,4 +45,4 @@ It runs TrueNAS Scale
 # Ignore for now... still learning markdown :P
 | Part  | pcs  | price  | sum  |
 |-------|------|--------|------|
-| [Odroid H3+] (https://www.hardkernel.com/shop/odroid-h3-plus/) | 1 | 165 | 165 |
+| [Odroid H3+](https://www.hardkernel.com/shop/odroid-h3-plus/) | 1 | 165 | 165 |
