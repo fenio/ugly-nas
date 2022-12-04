@@ -50,7 +50,7 @@ It runs TrueNAS Scale
 | [Samsung 32GB DDR4](https://www.hardkernel.com/shop/samsung-32gb-ddr4-pc4-25600-so-dimm/) | 107.00 |
 | [Case Type 5](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) | 20.00 |
 | [Power Supply Unit](https://www.hardkernel.com/shop/15v-4a-power-supply-asia-korea-plug-copy/) | 9.40 |
-| [2 x SATA/Power cables for disks](https://www.hardkernel.com/shop/sata-data-and-power-cable/) | 6.00 |
+| 2 x [SATA/Power cables for disks](https://www.hardkernel.com/shop/sata-data-and-power-cable/) | 6.00 |
 | Shipping from hardkernel.com to Poland | 39.43 |
 8 x Kioxia 2.5" SSD 480GB drives - $350
 Thermaltake 6-bays case - $50
