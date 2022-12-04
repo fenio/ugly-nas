@@ -43,7 +43,17 @@ So without disks it can be built for about $370.
 It runs TrueNAS Scale
 
 # Ignore for now... still learning markdown :P
-| Part  | pcs  | price  | sum  |
-|-------|------|--------|------|
-| [Odroid H3+](https://www.hardkernel.com/shop/odroid-h3-plus/) | 1 | 165.00 | 165.00 |
-| [64GB eMMC Module](https://www.hardkernel.com/shop/64gb-emmc-module-h2/) | 1 | 39.90 | 39.90 |
+| Part  | USD  |
+|-------|--------|
+| [Odroid H3+](https://www.hardkernel.com/shop/odroid-h3-plus/) | 165.00 |
+| [64GB eMMC Module](https://www.hardkernel.com/shop/64gb-emmc-module-h2/) | 39.90 |
+| [Samsung 32GB DDR4](https://www.hardkernel.com/shop/samsung-32gb-ddr4-pc4-25600-so-dimm/) | 107.00 |
+| [Case Type 5](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) | 20.00 |
+| [Power Supply Unit](https://www.hardkernel.com/shop/15v-4a-power-supply-asia-korea-plug-copy/) | 9.40 |
+| [2 x SATA/Power cables for disks](https://www.hardkernel.com/shop/sata-data-and-power-cable/) | 6.00 |
+| Shipping from hardkernel.com to Poland | 39.43 |
+8 x Kioxia 2.5" SSD 480GB drives - $350
+Thermaltake 6-bays case - $50
+additional PSU for case - $10
+MOLEX splitter - $2
+PCI-E SATA extender for 6 ports - $24.80
