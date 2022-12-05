@@ -53,7 +53,8 @@ It runs TrueNAS Scale
 | 2 x [SATA/Power cables for disks](https://www.hardkernel.com/shop/sata-data-and-power-cable/) | 6.00 |
 | Shipping from hardkernel.com to Poland | 39.43 |
 | 8 x [Kioxia 2.5" SSD 480GB drives](https://www.ebay.com/itm/134327464843) | ~350.00 |
-| [6-bays case](https://aliexpress.com/item/32921898033.html) | 50.00 |
-| [additional PSU for case](https://aliexpress.com/item/4000253348414.html) | ~6.00 |
-| [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 2.00 |
+| [6-bays case](https://aliexpress.com/item/32921898033.html) | 48.29 |
+| [additional PSU for case](https://aliexpress.com/item/4000253348414.html) | 5.91 |
+| [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | [PCI-E SATA extender for 6 ports](https://aliexpress.com/item/1005004374186238.html) | 24.80 |
+| Sum | 817.44 | 
