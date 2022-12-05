@@ -55,5 +55,5 @@ It runs TrueNAS Scale
 8 x [Kioxia 2.5" SSD 480GB drives](https://www.ebay.com/itm/134327464843) | $350 |
 Thermaltake 6-bays case - $50
 additional PSU for case - $10
-MOLEX splitter - $2
-PCI-E SATA extender for 6 ports - $24.80
+[MOLEX splitter](https://pl.aliexpress.com/item/1005004236892928.html) | 2.00 |
+[PCI-E SATA extender for 6 ports](https://pl.aliexpress.com/item/1005004374186238.html) | $24.80 |
