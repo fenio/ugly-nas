@@ -22,7 +22,7 @@ And yes it looks ugly as of now.
 | [additional PSU for case](https://aliexpress.com/item/4000253348414.html) | 5.91 |
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | [PCI-E SATA extender for 6 ports](https://aliexpress.com/item/1005004374186238.html) | 24.80 |
-| *Sum* | *817.44* | 
+| **Sum** | **817.44** | 
 
 # Does it work?
 Hell yeah!
@@ -44,3 +44,31 @@ So without disks it can be built for about $370.
 
 # Software
 It runs TrueNAS Scale
+
+# Performance
+
+    root@nas[/mnt/storage]# /root/fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=test.fio --bs=4k --iodepth=64 --size=1G --readwrite=randrw --rwmixread=80
+    test: (g=0): rw=randrw, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=64
+    fio-3.25
+    Starting 1 process
+    test: Laying out IO file (1 file / 1024MiB)
+    Jobs: 1 (f=1): [m(1)][100.0%][r=134MiB/s,w=33.0MiB/s][r=34.3k,w=8701 IOPS][eta 00m:00s]
+    test: (groupid=0, jobs=1): err= 0: pid=691249: Mon Dec  5 18:10:27 2022
+      read: IOPS=22.9k, BW=89.6MiB/s (93.9MB/s)(819MiB/9142msec)
+       bw (  KiB/s): min=21781, max=165208, per=99.06%, avg=90861.61, stdev=42994.49, samples=18
+       iops        : min= 5445, max=41302, avg=22715.33, stdev=10748.69, samples=18
+      write: IOPS=5744, BW=22.4MiB/s (23.5MB/s)(205MiB/9142msec); 0 zone resets
+       bw (  KiB/s): min= 5343, max=41728, per=99.04%, avg=22756.61, stdev=10894.22, samples=18
+       iops        : min= 1335, max=10432, avg=5689.06, stdev=2723.60, samples=18
+      cpu          : usr=5.09%, sys=78.22%, ctx=5155, majf=4, minf=7
+      IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+         submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+         complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+         issued rwts: total=209630,52514,0,0 short=0,0,0,0 dropped=0,0,0,0
+         latency   : target=0, window=0, percentile=100.00%, depth=64
+
+    Run status group 0 (all jobs):
+       READ: bw=89.6MiB/s (93.9MB/s), 89.6MiB/s-89.6MiB/s (93.9MB/s-93.9MB/s), io=819MiB (859MB), run=9142-9142msec
+      WRITE: bw=22.4MiB/s (23.5MB/s), 22.4MiB/s-22.4MiB/s (23.5MB/s-23.5MB/s), io=205MiB (215MB), run=9142-9142msec
+
+Feel free to ping me to run any other tests you wish.
