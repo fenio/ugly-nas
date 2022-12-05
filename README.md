@@ -71,4 +71,25 @@ It runs TrueNAS Scale
        READ: bw=89.6MiB/s (93.9MB/s), 89.6MiB/s-89.6MiB/s (93.9MB/s-93.9MB/s), io=819MiB (859MB), run=9142-9142msec
       WRITE: bw=22.4MiB/s (23.5MB/s), 22.4MiB/s-22.4MiB/s (23.5MB/s-23.5MB/s), io=205MiB (215MB), run=9142-9142msec
 
+And same test with 10M file instead of 1G:
+
+    root@nas[/mnt/storage]# /root/fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=test.fio --bs=4k --iodepth=64 --size=10M --readwrite=randrw --rwmixread=80
+    test: (g=0): rw=randrw, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=64
+    fio-3.25
+    Starting 1 process
+
+    test: (groupid=0, jobs=1): err= 0: pid=695373: Mon Dec  5 18:25:17 2022
+      read: IOPS=97.1k, BW=379MiB/s (398MB/s)(8156KiB/21msec)
+      write: IOPS=24.8k, BW=96.9MiB/s (102MB/s)(2084KiB/21msec); 0 zone resets
+      cpu          : usr=0.00%, sys=90.00%, ctx=0, majf=0, minf=7
+      IO depths    : 1=0.1%, 2=0.1%, 4=0.2%, 8=0.3%, 16=0.6%, 32=1.2%, >=64=97.5%
+         submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+         complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+         issued rwts: total=2039,521,0,0 short=0,0,0,0 dropped=0,0,0,0
+         latency   : target=0, window=0, percentile=100.00%, depth=64
+
+    Run status group 0 (all jobs):
+       READ: bw=379MiB/s (398MB/s), 379MiB/s-379MiB/s (398MB/s-398MB/s), io=8156KiB (8352kB), run=21-21msec
+      WRITE: bw=96.9MiB/s (102MB/s), 96.9MiB/s-96.9MiB/s (102MB/s-102MB/s), io=2084KiB (2134kB), run=21-21msec
+
 Feel free to ping me to run any other tests you wish.
