@@ -4,8 +4,10 @@ DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 Cause I didn't have time / skills to create case for it.
 And yes it looks ugly as of now.
 
-![front](IMG_0771.jpeg)
-![back](IMG_0772.jpeg)
+![front](IMG_0808.jpeg)
+![back](IMG_0809.jpeg)
+![tmp](IMG_0810.jpeg)
+
 
 # Cost (November 2022):
 | Part  | USD  |
