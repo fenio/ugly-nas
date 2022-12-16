@@ -47,6 +47,7 @@ So without disks it can be built for about $370.
 
 # Software
 It runs TrueNAS Scale
+![truenas](truenas.png)
 
 # Performance
 
