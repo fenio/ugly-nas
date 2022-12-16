@@ -20,9 +20,10 @@ And yes it looks ugly as of now.
 | 8 x [Kioxia 2.5" SSD 480GB drives](https://www.ebay.com/itm/134327464843) | ~350.00 |
 | [6-bays case](https://aliexpress.com/item/32921898033.html) | 48.29 |
 | [additional PSU for case](https://aliexpress.com/item/4000253348414.html) | 5.91 |
-| [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | [PCI-E SATA extender for 6 ports](https://aliexpress.com/item/1005004374186238.html) | 24.80 |
-| **Sum** | **817.44** | 
+| 6 x [Profiled SATA cables](https://pl.aliexpress.com/item/1005002384391035.html) | 16.74 |
+| [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
+| **Sum** | **834.18** | 
 
 # Does it work?
 Hell yeah!
