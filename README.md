@@ -9,6 +9,7 @@ And yes it looks ugly as of now.
 ![tmp](IMG_0810.jpeg)
 
 
+
 # Cost (November 2022):
 | Part  | USD  |
 |-------|--------:|
@@ -97,3 +98,13 @@ And same test with 10M file instead of 1G:
       WRITE: bw=96.9MiB/s (102MB/s), 96.9MiB/s-96.9MiB/s (102MB/s-102MB/s), io=2084KiB (2134kB), run=21-21msec
 
 Feel free to ping me to run any other tests you wish.
+
+# Can it look better?
+
+Well it probably can. I've started working on dedicated case. 
+It's just the beginning. Consider it pre-alpha state ;)
+
+![alpha1](IMG_0835.jpeg)
+![alpha2](IMG_0836.jpeg)
+![alpha3](IMG_0837.jpeg)
+
