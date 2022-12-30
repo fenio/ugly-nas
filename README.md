@@ -3,6 +3,8 @@ DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 # Why is it ugly?
 Cause I didn't have time / skills to create case for it.
 And yes it looks ugly as of now.
+But to be honest I don't like it too.
+And I'm [working](#can-it-look-better) on something better.
 
 ![front](IMG_0808.jpeg)
 ![back](IMG_0809.jpeg)
@@ -99,9 +101,10 @@ And same test with 10M file instead of 1G:
 
 Feel free to ping me to run any other tests you wish.
 
-# Can it look better?
+# Can it look any better?
 
-Well it probably can. I've started working on dedicated case. 
+Of course. But as I mentioned I'm not really skilled with stuff like that.
+But I'm working on improving its look.
 It's just the beginning. Consider it pre-alpha state ;)
 
 ![alpha1](IMG_0835.jpeg)
