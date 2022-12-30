@@ -111,3 +111,7 @@ It's just the beginning. Consider it pre-alpha state ;)
 ![alpha2](IMG_0836.jpeg)
 ![alpha3](IMG_0837.jpeg)
 
+# How to get that lovely case?
+
+Once I figure out final version I will post all files needed carve it with your local CNC dealer.
+
