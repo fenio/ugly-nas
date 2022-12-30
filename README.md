@@ -113,5 +113,5 @@ It's just the beginning. Consider it pre-alpha state ;)
 
 # How to get that lovely case?
 
-Once I figure out final version I will post all files needed carve it with your local CNC dealer.
+Once I figure out final version I will post all files needed to carve it with your local CNC dealer.
 
