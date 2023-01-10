@@ -52,6 +52,19 @@ So without disks it can be built for about $370.
 It runs TrueNAS Scale
 ![truenas](truenas.png)
 
+# Power consumption
+
+| State | Usage in W |
+| standby | 5.8 |
+| boot | 22.4 |
+| idling | 15.8 |
+| 1 VM running | 22.3 |
+| VM + stress CPU + fio test | 30.8 |
+
+Note. Every value is the highest value I was able to notice on wattmeter like this:
+But given that the highest value was ~30W it might make sense to remove additional PSU for case and grab some power from Odroid itself.
+Will try to work on that.
+
 # Performance
 
     root@nas[/mnt/storage]# /root/fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=test.fio --bs=4k --iodepth=64 --size=1G --readwrite=randrw --rwmixread=80
