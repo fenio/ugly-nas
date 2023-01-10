@@ -1,16 +1,13 @@
 DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 
 # Why is it ugly?
-Cause I didn't have time / skills to create case for it.
-And yes it looks ugly as of now.
-But to be honest I don't like it too.
-And I'm [working](#can-it-look-any-better) on something better.
 
-![front](IMG_0808.jpeg)
-![back](IMG_0809.jpeg)
-![tmp](IMG_0810.jpeg)
+Well to be honest it's not so ugly anymore.
+But when I started it looked ugly and I liked that name.
 
-
+Case was redesigned and now it looks pretty good.
+But feel free to see previous attempts and [past](/case) evolution
+And yeah it looked ugly.
 
 # Cost (November 2022):
 | Part  | USD  |
