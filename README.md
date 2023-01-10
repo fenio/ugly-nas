@@ -59,9 +59,13 @@ It runs TrueNAS Scale
 | 1 VM running | 22.3 |
 | VM + stress CPU + fio test | 30.8 |
 
-Note: Every value is the highest that I was able to notice on pretty basic wattmeter.
+Minor note: Every value is the highest that I was able to notice on pretty basic wattmeter.
+
 But given that the highest value was ~30W it might make sense to remove additional PSU for case and grab some power from Odroid itself.
+
 Will try to work on that.
+
+Major note: don't try to use HDD instead of SDD... just don't.
 
 # Performance
 
@@ -112,17 +116,7 @@ And same test with 10M file instead of 1G:
 
 Feel free to ping me to run any other tests you wish.
 
-# Can it look any better?
-
-Of course. But as I mentioned I'm not really skilled with stuff like that.
-But I'm working on improving its look.
-It's just the beginning. Consider it pre-alpha state ;)
-
-![alpha1](IMG_0835.jpeg)
-![alpha2](IMG_0836.jpeg)
-![alpha3](IMG_0837.jpeg)
-
-# How to get that lovely case?
+# How to get case?
 
 Once I figure out final version I will post all files needed to carve it with your local CNC dealer.
 
