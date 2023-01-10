@@ -55,13 +55,14 @@ It runs TrueNAS Scale
 # Power consumption
 
 | State | Usage in W |
+|-------|-------:|
 | standby | 5.8 |
 | boot | 22.4 |
 | idling | 15.8 |
 | 1 VM running | 22.3 |
 | VM + stress CPU + fio test | 30.8 |
 
-Note. Every value is the highest value I was able to notice on wattmeter like this:
+Note: Every value is the highest that I was able to notice on pretty basic wattmeter.
 But given that the highest value was ~30W it might make sense to remove additional PSU for case and grab some power from Odroid itself.
 Will try to work on that.
 
