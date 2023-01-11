@@ -6,7 +6,7 @@
 
 Well to be honest it's not so ugly anymore. 
 
-But early case versions were really [ugly](/old) and when I eventually created decent looking case I decided to leave its name.
+But early case versions were really [ugly](/ugly) and when I eventually created decent looking case I decided to leave its name.
 
 ### So how does it look now?
 
