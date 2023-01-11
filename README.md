@@ -11,6 +11,13 @@ Case was redesigned and now it looks pretty good.
 But feel free to see previous attempts and [past](/case) evolution
 And yeah it looked ugly.
 
+# So how does it look now?
+
+![nas1](IMG_0854.jpeg)
+![nas2](IMG_0855.jpeg)
+![nas3](IMG_0856.jpeg)
+![nas4](IMG_0857.jpeg)
+
 # Cost (November 2022):
 | Part  | USD  |
 |-------|--------:|
