@@ -101,7 +101,7 @@ No. It can't.
 
 ### What software does it run?
 
-It runs TrueNAS Scale
+It runs TrueNAS Scale.
 ![truenas](truenas.png)
 
 ### Can it be any cheaper?
@@ -119,5 +119,4 @@ So without disks it can be built for about $370.
 
 ### How to get that lovely case?
 
-Once I figure out final version I will post all files needed to carve it with your local CNC dealer.
-
+All needed parts are listed [there](/case).
