@@ -1,6 +1,6 @@
 # Parts needed to create the case
 
-## Plexiglass to be carved by local CNC supplier
+## Plexiglass to be carved by local CNC supplier (3mm)
 
 [Front](front.svg)
 
