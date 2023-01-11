@@ -68,13 +68,13 @@ It runs TrueNAS Scale
 | 1 VM running | 22.3 |
 | VM + stress CPU + fio test | 30.8 |
 
-Minor note: Every value is the highest that I was able to notice on pretty basic wattmeter.
+Minor note: Every value is the peak that I was able to notice on pretty basic wattmeter.
 
 But given that the highest value was ~30W it might make sense to remove additional PSU for case and grab some power from Odroid itself.
 
 Will try to work on that.
 
-Major note: don't try to use HDD instead of SDD... just don't.
+Major note: don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
 
 # Performance
 
