@@ -1,8 +1,8 @@
 ![name](ugly.png)
 
-DIY 8-disks NAS based on Odroid H3+ under $1k with disks
+# DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 
-# Why is it ugly?
+## Why is it ugly?
 
 Well to be honest it's not so ugly anymore.
 But when I started it looked ugly and I liked that name.
@@ -11,7 +11,7 @@ Case was redesigned and now it looks pretty good.
 But feel free to see previous attempts and [past](/case) evolution
 And yeah it looked ugly.
 
-# So how does it look now?
+## So how does it look now?
 
 ![nas1](IMG_0854.jpeg)
 ![nas2](IMG_0855.jpeg)
@@ -36,11 +36,24 @@ And yeah it looked ugly.
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | **Sum** | **834.18** | 
 
-# Does it work?
+<details>
+
+<summary>FAQ</summary>
+
+* Does it support ECC?
+
+No. It can't.
+
+* What software does it run?
+
+It runs TrueNAS Scale
+![truenas](truenas.png)
+
+</details>
+
+## Does it work?
 Hell yeah!
 
-# Does it support ECC?
-No. It can't.
 
 # Can it be any cheaper?
 Yup.
@@ -53,10 +66,6 @@ Also it should still work pretty decent if you switch:
   * RAM 32GB -> 16GB - $54 less
 
 So without disks it can be built for about $370.
-
-# Software
-It runs TrueNAS Scale
-![truenas](truenas.png)
 
 # Power consumption
 
