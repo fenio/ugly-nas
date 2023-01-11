@@ -1,8 +1,8 @@
 ![name](ugly.png)
 
-# DIY 8-disks NAS based on Odroid H3+ under $1k with disks
+## DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 
-## Why is it ugly?
+### Why is it ugly?
 
 Well to be honest it's not so ugly anymore.
 But when I started it looked ugly and I liked that name.
@@ -11,14 +11,15 @@ Case was redesigned and now it looks pretty good.
 But feel free to see previous attempts and [past](/case) evolution
 And yeah it looked ugly.
 
-## So how does it look now?
+### So how does it look now?
 
 ![nas1](IMG_0854.jpeg)
 ![nas2](IMG_0855.jpeg)
 ![nas3](IMG_0856.jpeg)
 ![nas4](IMG_0857.jpeg)
 
-# Cost (November 2022):
+### Cost (November 2022):
+
 | Part  | USD  |
 |-------|--------:|
 | [Odroid H3+](https://www.hardkernel.com/shop/odroid-h3-plus/) | 165.00 |
@@ -36,56 +37,7 @@ And yeah it looked ugly.
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | **Sum** | **834.18** | 
 
-<details>
-
-<summary>FAQ</summary>
-
-* Does it support ECC?
-
-No. It can't.
-
-* What software does it run?
-
-It runs TrueNAS Scale
-![truenas](truenas.png)
-
-</details>
-
-## Does it work?
-Hell yeah!
-
-
-# Can it be any cheaper?
-Yup.
-
-Without disks it's below $500 ;)
-
-Also it should still work pretty decent if you switch:
-  * H3+ -> H3 - 36$ less
-  * eMMC 64GB -> 32GB - $13 less
-  * RAM 32GB -> 16GB - $54 less
-
-So without disks it can be built for about $370.
-
-# Power consumption
-
-| State | Usage in W |
-|-------|-------:|
-| standby | 5.8 |
-| boot | 22.4 |
-| idling | 15.8 |
-| 1 VM running | 22.3 |
-| VM + stress CPU + fio test | 30.8 |
-
-Minor note: Every value is the peak that I was able to notice on pretty basic wattmeter.
-
-But given that the highest value was ~30W it might make sense to remove additional PSU for case and grab some power from Odroid itself.
-
-Will try to work on that.
-
-Major note: don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
-
-# Performance
+### Performance
 
     root@nas[/mnt/storage]# /root/fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=test.fio --bs=4k --iodepth=64 --size=1G --readwrite=randrw --rwmixread=80
     test: (g=0): rw=randrw, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=64
@@ -134,7 +86,46 @@ And same test with 10M file instead of 1G:
 
 Feel free to ping me to run any other tests you wish.
 
-# How to get case?
+### Power consumption
+
+| State | Usage in W |
+|-------|-------:|
+| standby | 5.8 |
+| boot | 22.4 |
+| idling | 15.8 |
+| 1 VM running | 22.3 |
+| VM + stress CPU + fio test | 30.8 |
+
+Minor note: Every value is the peak that I was able to notice on pretty basic wattmeter.
+
+But given that the highest value was ~30W it might make sense to remove additional PSU for case and grab some power from Odroid itself.
+
+Will try to work on that.
+
+Major note: don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
+
+### Does it support ECC?
+
+No. It can't.
+
+### What software does it run?
+
+It runs TrueNAS Scale
+![truenas](truenas.png)
+
+### Can it be any cheaper?
+Yup.
+
+Without disks it's below $500 ;)
+
+Also it should still work pretty decent if you switch:
+  * H3+ -> H3 - 36$ less
+  * eMMC 64GB -> 32GB - $13 less
+  * RAM 32GB -> 16GB - $54 less
+
+So without disks it can be built for about $370.
+
+### How to get case?
 
 Once I figure out final version I will post all files needed to carve it with your local CNC dealer.
 
