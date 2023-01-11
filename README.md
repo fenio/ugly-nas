@@ -83,9 +83,9 @@ And same test with 10M file instead of 1G:
 
 Feel free to ping me if you want me to run any other tests.
 
-### Power consumption
+### Power consumption in Watts
 
-| State | Peak | Avg (W) |
+| State | Peak | Avg |
 |-------|-------:|-------:|
 | standby | - | 3.6 |
 | boot | 24.2 | ~17 |
@@ -93,9 +93,7 @@ Feel free to ping me if you want me to run any other tests.
 | 1 VM running | 22.3 | ~16 |
 | VM + stress CPU + fio test | 30.8 | ~28 |
 
-Minor note: Every value is the peak that I was able to notice on pretty basic wattmeter
-
-Major note: Don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
+Note: Don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
 
 ### Does it support ECC?
 
@@ -107,6 +105,7 @@ It runs TrueNAS Scale
 ![truenas](truenas.png)
 
 ### Can it be any cheaper?
+
 Yup.
 
 Without disks it's below $500 ;)
@@ -118,7 +117,7 @@ Also it should still work pretty decent if you switch:
 
 So without disks it can be built for about $370.
 
-### How to get case?
+### How to get that lovely case?
 
 Once I figure out final version I will post all files needed to carve it with your local CNC dealer.
 
