@@ -4,12 +4,9 @@
 
 ### Why is it ugly?
 
-Well to be honest it's not so ugly anymore.
-But when I started it looked ugly and I liked that name.
+Well to be honest it's not so ugly anymore. 
 
-Case was redesigned and now it looks pretty good.
-But feel free to see previous attempts and [past](/case) evolution
-And yeah it looked ugly.
+But early case versions were really [ugly](/old) and when I eventually created decent looking case I decided to leave its name.
 
 ### So how does it look now?
 
@@ -31,7 +28,7 @@ And yeah it looked ugly.
 | Shipping from hardkernel.com to Poland | 39.43 |
 | 8 x [Kioxia 2.5" SSD 480GB drives](https://www.ebay.com/itm/134327464843) | ~350.00 |
 | [6-bays case](https://aliexpress.com/item/32921898033.html) | 48.29 |
-| [additional PSU for case](https://aliexpress.com/item/4000253348414.html) | 5.91 |
+| [Additional PSU for case](https://aliexpress.com/item/4000253348414.html) | 5.91 |
 | [PCI-E SATA extender for 6 ports](https://aliexpress.com/item/1005004374186238.html) | 24.80 |
 | 6 x [Profiled SATA cables](https://pl.aliexpress.com/item/1005002384391035.html) | 16.74 |
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
@@ -84,25 +81,21 @@ And same test with 10M file instead of 1G:
        READ: bw=379MiB/s (398MB/s), 379MiB/s-379MiB/s (398MB/s-398MB/s), io=8156KiB (8352kB), run=21-21msec
       WRITE: bw=96.9MiB/s (102MB/s), 96.9MiB/s-96.9MiB/s (102MB/s-102MB/s), io=2084KiB (2134kB), run=21-21msec
 
-Feel free to ping me to run any other tests you wish.
+Feel free to ping me if you want me to run any other tests.
 
 ### Power consumption
 
-| State | Usage in W |
-|-------|-------:|
-| standby | 5.8 |
-| boot | 22.4 |
-| idling | 15.8 |
-| 1 VM running | 22.3 |
-| VM + stress CPU + fio test | 30.8 |
+| State | Peak | Avg (W) |
+|-------|-------:|-------:|
+| standby | - | 3.6 |
+| boot | 24.2 | ~17 |
+| idling | 17.7 | ~14 |
+| 1 VM running | 22.3 | ~16 |
+| VM + stress CPU + fio test | 30.8 | ~28 |
 
-Minor note: Every value is the peak that I was able to notice on pretty basic wattmeter.
+Minor note: Every value is the peak that I was able to notice on pretty basic wattmeter
 
-But given that the highest value was ~30W it might make sense to remove additional PSU for case and grab some power from Odroid itself.
-
-Will try to work on that.
-
-Major note: don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
+Major note: Don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
 
 ### Does it support ECC?
 
