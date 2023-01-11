@@ -8,7 +8,7 @@ Case evolution
 ![early3](IMG_0810.jpeg)
 
 # Early attempt
-[[alpha1](IMG_0835.jpeg)
+![alpha1](IMG_0835.jpeg)
 ![alpha2](IMG_0836.jpeg)
 ![alpha3](IMG_0837.jpeg)
 
