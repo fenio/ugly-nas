@@ -1,3 +1,5 @@
+![name](ugly.png)
+
 DIY 8-disks NAS based on Odroid H3+ under $1k with disks
 
 # Why is it ugly?
