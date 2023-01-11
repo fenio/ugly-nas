@@ -3,11 +3,17 @@
 ## Plexiglass
 
 [Front](front.svg)
+
 [Back](back.svg)
+
 [Left](left.svg)
+
 [Right](right.svg)
+
 [Shelve](shelve.svg)
+
 [Top](top.svg)
+
 [Bottom](bottom.svg)
 
 ## Connectors
