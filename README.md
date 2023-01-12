@@ -34,6 +34,13 @@ But early case versions were really [ugly](/ugly) and when I eventually created 
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | **Sum** | **834.18** | 
 
+Beware that I spent more than that... but I was trying various solutions. Above is an effect of my work ;)
+
+I'm also still trying to implement some changes. I'm on my way to remove requirenment for additional PSU.
+This means that some parts from this list will disappear but some splitters/connectors will show up instead.
+Also you don't really need case from Odroid if you want to use self crafted ![case](/case) but that means you have to buy fan and some screws yourself.
+Will document everything once I'm sure what exactly is needed.
+
 ### Performance
 
     root@nas[/mnt/storage]# /root/fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=test.fio --bs=4k --iodepth=64 --size=1G --readwrite=randrw --rwmixread=80
