@@ -95,6 +95,9 @@ Feel free to ping me if you want me to run any other tests.
 
 Note: Don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
 
+After running some power usage tests it seems that additional case shouldn't require external PSU and should be able to use power from Odroid.
+I've just ordered some splitters/connectors and next week will try to get rid of extra PSU.
+
 ### Does it support ECC?
 
 No. It can't.
