@@ -2,7 +2,10 @@
 
 ## Plexiglass to be carved by local CNC supplier (3mm)
 
-[Front](front.svg)<img src="./front.svg">
+[Front](front.svg)
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="front.svg">
+</picture>
 
 [Back](back.svg)
 
