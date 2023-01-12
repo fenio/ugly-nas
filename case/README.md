@@ -2,22 +2,13 @@
 
 ## Plexiglass to be carved by local CNC supplier (3mm)
 
-[Front](front.svg)
-<picture>
-<source media="(prefers-color-scheme: light)" srcset="front.svg">
-</picture>
-
-[Back](back.svg)
-
-[Left](left.svg)
-
-[Right](right.svg)
-
-[Shelve](shelve.svg)
-
-[Top](top.svg)
-
-[Bottom](bottom.svg)
+* [Front](front.svg)
+* [Back](back.svg)
+* [Left](left.svg)
+* [Right](right.svg)
+* [Shelve](shelve.svg)
+* [Top](top.svg)
+* [Bottom](bottom.svg)
 
 ## Connectors to be printed in 3D
 
