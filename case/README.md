@@ -20,9 +20,9 @@
 
 | Part            | Pcs | Link | File |
 |-----------------|----:|------|------|
-| 3-way connector | 6   | https://www.tinkercad.com/things/dNCOjgzWop4-corner-connector-3-way | [Corner connector 3-way](Corner%20connector%20 3-way.stl) |
-| 2-way half open | 4   | https://www.tinkercad.com/things/0fqsxl175nB-corner-connector-2-way-half-open | [Corner connector 2-way half-open]('Corner connector 2-way half-open.stl') |
-| 2-way           | 4   | https://www.tinkercad.com/things/dEiUtZarAht-corner-connector-2-way | [Corner connector 2-way]('Corner connector 2-way half-open.stl') |
+| 3-way connector | 6   | https://www.tinkercad.com/things/dNCOjgzWop4-corner-connector-3-way | [Corner connector 3-way](Corner-3W.stl) |
+| 2-way half open | 4   | https://www.tinkercad.com/things/0fqsxl175nB-corner-connector-2-way-half-open | [Corner connector 2-way half-open](Corner-2W-ho.stl) |
+| 2-way           | 4   | https://www.tinkercad.com/things/dEiUtZarAht-corner-connector-2-way | [Corner connector 2-way](Corner-2W.stl) |
 | Peg             | 6   | https://www.tinkercad.com/things/g6Oe3tnbkLx-peg | [Peg](Peg.stl) |
 | Blocker         | 1   | https://www.tinkercad.com/things/gxXk9fNjbbF-blocker | [Blocker](Blocker.stl) |
 
