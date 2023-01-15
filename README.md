@@ -129,7 +129,7 @@ So without disks it can be built for about $370.
 
 ### Why are two disks directly plugged into Odroid not part of enclosure?
 
-Odroid ![doesn't](https://wiki.odroid.com/odroid-h3/hardware) support hotplug for devices directly attached to it so it doesn't really make sense to make them part of enclosure.
+Odroid [doesn't](https://wiki.odroid.com/odroid-h3/hardware) support hotplug for devices directly attached to it so it doesn't really make sense to make them part of enclosure.
 
 ### How to get that lovely case?
 
