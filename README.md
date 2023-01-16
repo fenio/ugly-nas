@@ -15,6 +15,8 @@ But early case versions were really [ugly](/ugly) and when I eventually created 
 ![nas3](IMG_0856.jpeg)
 ![nas4](IMG_0857.jpeg)
 
+Except it no longer has additional PSU for enclosure. Everything is powered using Odroid PSU.
+
 ### Cost (November 2022):
 
 | Part  | USD  |
@@ -31,12 +33,11 @@ But early case versions were really [ugly](/ugly) and when I eventually created 
 | [PCI-E SATA extender for 6 ports](https://aliexpress.com/item/1005004374186238.html) | 24.80 |
 | 6 x [Profiled SATA cables](https://pl.aliexpress.com/item/1005002384391035.html) | 16.74 |
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
-| **Sum** | **808.27** | 
+| Additional SATA power splitters | 2.50 |
+| **Sum** | **810.77** | 
 
 Beware that I spent more than that... but I was trying various solutions. Above is an effect of my work ;)
 
-I'm also still trying to implement some changes. I'm on my way to remove requirenment for additional PSU.
-This means that some parts from this list will disappear but some splitters/connectors will show up instead.
 Also you don't really need case from Odroid if you want to use self crafted ![case](/case) but that means you have to buy fan and some screws yourself.
 Will document everything once I'm sure what exactly is needed.
 
@@ -147,9 +148,6 @@ Feel free to ping me if you want me to run any other tests.
 
 Note: Don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
 
-After running some power usage tests it seems that additional case shouldn't require external PSU and should be able to use power from Odroid.
-I've just ordered some splitters/connectors and next week will try to get rid of extra PSU.
-
 ### Does it support ECC?
 
 No. It can't.
@@ -170,7 +168,7 @@ Also it should still work pretty decent if you switch:
   * eMMC 64GB -> 32GB - $13 less
   * RAM 32GB -> 16GB - $54 less
 
-So without disks it can be built for about $370.
+So without disks it can be built for about $375.
 
 ### Why are two disks directly plugged into Odroid not part of enclosure?
 
