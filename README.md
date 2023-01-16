@@ -88,6 +88,52 @@ And same test with 10M file instead of 1G:
        READ: bw=379MiB/s (398MB/s), 379MiB/s-379MiB/s (398MB/s-398MB/s), io=8156KiB (8352kB), run=21-21msec
       WRITE: bw=96.9MiB/s (102MB/s), 96.9MiB/s-96.9MiB/s (102MB/s-102MB/s), io=2084KiB (2134kB), run=21-21msec
 
+With iozone:
+
+    root@nas[/mnt/storage]# /root/iozone -e -I -a -s 1G -r 4k -r 16k -r 512k -r 1024k -r 16384k -i 0 -i 1 -i 2     
+            Iozone: Performance Test of File I/O
+                    Version $Revision: 3.489 $
+                    Compiled for 64 bit mode.
+                    Build: linux-AMD64 
+    
+            Contributors:William Norcott, Don Capps, Isom Crawford, Kirby Collins
+                         Al Slater, Scott Rhine, Mike Wisner, Ken Goss
+                         Steve Landherr, Brad Smith, Mark Kelly, Dr. Alain CYR,
+                         Randy Dunlap, Mark Montague, Dan Million, Gavin Brebner,
+                         Jean-Marc Zucconi, Jeff Blomberg, Benny Halevy, Dave Boone,
+                         Erik Habbinga, Kris Strecker, Walter Wong, Joshua Root,
+                         Fabrice Bacchella, Zhenghua Xue, Qin Li, Darren Sawyer,
+                         Vangel Bojaxhi, Ben England, Vikentsi Lapa,
+                         Alexey Skidanov, Sudhir Kumar.
+    
+            Run began: Mon Jan 16 16:52:27 2023
+    
+            Include fsync in write timing
+            O_DIRECT feature enabled
+            Auto Mode
+            File size set to 1048576 kB
+            Record Size 4 kB
+            Record Size 16 kB
+            Record Size 512 kB
+            Record Size 1024 kB
+            Record Size 16384 kB
+            Command line used: /root/iozone -e -I -a -s 1G -r 4k -r 16k -r 512k -r 1024k -r 16384k -i 0 -i 1 -i 2
+            Output is in kBytes/sec
+            Time Resolution = 0.000001 seconds.
+            Processor cache size set to 1024 kBytes.
+            Processor cache line size set to 32 bytes.
+            File stride size set to 17 * record size.
+                                                                  random    random     bkwd    record    stride                                    
+                  kB  reclen    write  rewrite    read    reread    read     write     read   rewrite      read   fwrite frewrite    fread  freread
+             1048576       4   310964   292306  1178512  1179537   173968   195313                                                                
+             1048576      16   293274   307902  2134753  2159181   626843   278066                                                                
+             1048576     512  1010432  1793142  6357664  2866019  3240346   999201                                                                
+             1048576    1024   798928  1539648  4325665  4094047  6342773  1731892                                                                
+             1048576   16384   809463  1588195  4512099  2468875  2813374  1110396                                                                
+    
+    iozone test complete.
+
+
 Feel free to ping me if you want me to run any other tests.
 
 ### Power consumption in Watts
