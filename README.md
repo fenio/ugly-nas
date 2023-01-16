@@ -26,13 +26,12 @@ But early case versions were really [ugly](/ugly) and when I eventually created 
 | [Power Supply Unit](https://www.hardkernel.com/shop/15v-4a-power-supply-asia-korea-plug-copy/) | 9.40 |
 | 2 x [SATA/Power cables for disks](https://www.hardkernel.com/shop/sata-data-and-power-cable/) | 6.00 |
 | Shipping from hardkernel.com to Poland | 39.43 |
-| 8 x [Kioxia 2.5" SSD 480GB drives](https://www.ebay.com/itm/134327464843) | ~350.00 |
+| 8 x [Kioxia 2.5" SSD 480GB drives](https://www.ebay.com/itm/134327464843) | ~330.00 |
 | [6-bays enclosure](https://aliexpress.com/item/32921898033.html) | 48.29 |
-| [Additional PSU for enclosure](https://aliexpress.com/item/4000253348414.html) | 5.91 |
 | [PCI-E SATA extender for 6 ports](https://aliexpress.com/item/1005004374186238.html) | 24.80 |
 | 6 x [Profiled SATA cables](https://pl.aliexpress.com/item/1005002384391035.html) | 16.74 |
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
-| **Sum** | **834.18** | 
+| **Sum** | **808.27** | 
 
 Beware that I spent more than that... but I was trying various solutions. Above is an effect of my work ;)
 
