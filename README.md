@@ -133,6 +133,16 @@ With iozone:
     
     iozone test complete.
 
+And simple dd:
+
+    root@nas[~]# dd if=/dev/zero of=/mnt/storage/file bs=1M count=10K
+    10240+0 records in
+    10240+0 records out
+    10737418240 bytes (11 GB, 10 GiB) copied, 6.14285 s, 1.7 GB/s
+    root@nas[~]# dd if=/mnt/storage/file of=/dev/null bs=1M count=10K
+    10240+0 records in
+    10240+0 records out
+    10737418240 bytes (11 GB, 10 GiB) copied, 2.27149 s, 4.7 GB/s
 
 Feel free to ping me if you want me to run any other tests.
 
