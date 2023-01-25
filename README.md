@@ -10,10 +10,10 @@ But early case versions were really [ugly](/ugly) and when I eventually created 
 
 ### So how does it look now?
 
-![nas1](IMG_0854.jpeg)
-![nas2](IMG_0855.jpeg)
-![nas3](IMG_0856.jpeg)
-![nas4](IMG_0857.jpeg)
+![nas1](IMG_0887.jpeg)
+![nas2](IMG_0888.jpeg)
+![nas3](IMG_0889.jpeg)
+![nas4](IMG_0854.jpeg)
 
 Except it no longer has additional PSU for enclosure. Everything is powered using Odroid PSU.
 
