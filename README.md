@@ -33,8 +33,9 @@ Except it no longer has additional PSU for enclosure. Everything is powered usin
 | [PCI-E SATA extender for 6 ports](https://aliexpress.com/item/1005004374186238.html) | 24.80 |
 | 6 x [Profiled SATA cables](https://pl.aliexpress.com/item/1005002384391035.html) | 16.74 |
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
-| Additional SATA power splitters | 2.50 |
-| **Sum** | **810.77** | 
+| [SATA splitter](https://pl.aliexpress.com/item/10000330531380.html) | 1.57 |
+| [Power extension](https://pl.aliexpress.com/item/10000330531380.html) | 0.84 |
+| **Sum** | **810.68** | 
 
 Beware that I spent more than that... but I was trying various solutions. Above is an effect of my work ;)
 
