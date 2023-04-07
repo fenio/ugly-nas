@@ -24,7 +24,6 @@ Except it no longer has additional PSU for enclosure. Everything is powered usin
 | [Odroid H3+](https://www.hardkernel.com/shop/odroid-h3-plus/) | 165.00 |
 | [64GB eMMC Module](https://www.hardkernel.com/shop/64gb-emmc-module-h2/) | 39.90 |
 | [Samsung 32GB DDR4](https://www.hardkernel.com/shop/samsung-32gb-ddr4-pc4-25600-so-dimm/) | 107.00 |
-| [Case Type 5](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) | 20.00 |
 | [Power Supply Unit](https://www.hardkernel.com/shop/15v-4a-power-supply-asia-korea-plug-copy/) | 9.40 |
 | 2 x [SATA/Power cables for disks](https://www.hardkernel.com/shop/sata-data-and-power-cable/) | 6.00 |
 | Shipping from hardkernel.com to Poland | 39.43 |
@@ -35,12 +34,23 @@ Except it no longer has additional PSU for enclosure. Everything is powered usin
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | [SATA splitter](https://pl.aliexpress.com/item/10000330531380.html) | 1.57 |
 | [Power extension](https://pl.aliexpress.com/item/10000330531380.html) | 0.84 |
+| [Case Type 5](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) | 20.00 |
 | **Sum** | **810.68** | 
 
 Beware that I spent more than that... but I was trying various solutions. Above is an effect of my work ;)
 
-Also you don't really need case from Odroid if you want to use self crafted ![case](/case) but that means you have to buy fan and some screws yourself.
-Will document everything once I'm sure what exactly is needed.
+Also you don't really need case from Odroid if you want to use self crafted ![case](/case) but that means you have to buy fan and some supports yourself.
+From the [listing](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) you need these parts:
+
+* G. 1 x 92x92x25mm DC 5V Cooling Fan
+* H. 1 x 92mm Stainless Cooling Fan Grill
+* I. 2 x 10mm (M/F) PCB Supports
+* J. 1 x 40mm (M/F) PCB Supports
+* K. 2 x 40mm (F/F) PCB Supports
+* L. 4 x M5 PC Fan Screws
+* N. 4 x 6mm M3 Truss Head Bolts
+
+You can gather them yourself and save few bucks but maybe buying case from Odroid is simpler way to get all of this ;)
 
 ### Performance
 
