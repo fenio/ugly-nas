@@ -26,6 +26,7 @@ Except it no longer has additional PSU for enclosure. Everything is powered usin
 | [Samsung 32GB DDR4](https://www.hardkernel.com/shop/samsung-32gb-ddr4-pc4-25600-so-dimm/) | 107.00 |
 | [Power Supply Unit](https://www.hardkernel.com/shop/15v-4a-power-supply-asia-korea-plug-copy/) | 9.40 |
 | 2 x [SATA/Power cables for disks](https://www.hardkernel.com/shop/sata-data-and-power-cable/) | 6.00 |
+| [Case Type 5](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) | 20.00 |
 | Shipping from hardkernel.com to Poland | 39.43 |
 | 8 x [Kioxia 2.5" SSD 480GB drives](https://www.ebay.com/itm/134327464843) | ~330.00 |
 | [6-bays enclosure](https://aliexpress.com/item/32921898033.html) | 48.29 |
@@ -34,13 +35,12 @@ Except it no longer has additional PSU for enclosure. Everything is powered usin
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | [SATA splitter](https://pl.aliexpress.com/item/10000330531380.html) | 1.57 |
 | [Power extension](https://pl.aliexpress.com/item/10000330531380.html) | 0.84 |
-| [Case Type 5](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) | 20.00 |
 | **Sum** | **810.68** | 
 
-Beware that I spent more than that... but I was trying various solutions. Above is an effect of my work ;)
+Beware that I spent much more than that... but I was trying various solutions. Above is an effect of my work ;)
 
 Also you don't really need case from Odroid if you want to use self crafted ![case](/case) but that means you have to buy fan and some supports yourself.
-From the [listing](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) you need these parts:
+From the [listing](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) you will need these parts:
 
 * G. 1 x 92x92x25mm DC 5V Cooling Fan
 * H. 1 x 92mm Stainless Cooling Fan Grill
@@ -177,6 +177,14 @@ No. It can't.
 
 It runs TrueNAS Scale.
 ![truenas](truenas.png)
+
+Side note. Make sure to use the latest intel microcode or you'll end up with VM's freezing here and there pretty often.
+You have to have microcode version "24" to have stable virtualization.
+
+    root@nas[~]# grep -m1 microcode /proc/cpuinfo 
+    microcode       : 0x24000024
+
+If it shows 0x24000023 then you definitely want to update it.
 
 ### Can it be any cheaper?
 
