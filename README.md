@@ -1,6 +1,6 @@
 ![name](ugly.png)
 
-## DIY 8-disks NAS based on Odroid H3+ under $1k with disks
+## DIY 8-disks NAS based on Odroid H3+ under $800 with disks
 
 ### Why is it ugly?
 
@@ -17,7 +17,7 @@ But early case versions were really [ugly](/ugly) and when I eventually created 
 
 Except it no longer has additional PSU for enclosure. Everything is powered using Odroid PSU.
 
-### Cost (June 2023):
+### Cost (November 2022):
 
 | Part  | USD  |
 |-------|--------:|
@@ -167,7 +167,7 @@ Feel free to ping me if you want me to run any other tests.
 | 1 VM running | 22.3 | ~16 |
 | VM + stress CPU + fio test | 30.8 | ~28 |
 
-Note: Don't try to use HDDs instead of SDDs with my power supply setup... it won't work almost for sure.
+Note: Don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
 
 ### Does it support ECC?
 
@@ -195,9 +195,9 @@ Without disks it's below $500 ;)
 Also it should still work pretty decent if you switch:
   * H3+ -> H3 - 36$ less
   * eMMC 64GB -> 32GB - $10 less
-  * RAM 32GB -> 16GB - $50 less
+  * RAM 32GB -> 16GB - $54 less
 
-So without disks it can be built for about $365.
+So without disks it can be built for about $375.
 
 ### Why are two disks directly plugged into Odroid not part of enclosure?
 
