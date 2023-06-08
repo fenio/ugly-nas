@@ -17,13 +17,13 @@ But early case versions were really [ugly](/ugly) and when I eventually created 
 
 Except it no longer has additional PSU for enclosure. Everything is powered using Odroid PSU.
 
-### Cost (November 2022):
+### Cost (June 2023):
 
 | Part  | USD  |
 |-------|--------:|
 | [Odroid H3+](https://www.hardkernel.com/shop/odroid-h3-plus/) | 165.00 |
-| [64GB eMMC Module](https://www.hardkernel.com/shop/64gb-emmc-module-h2/) | 39.90 |
-| [Samsung 32GB DDR4](https://www.hardkernel.com/shop/samsung-32gb-ddr4-pc4-25600-so-dimm/) | 107.00 |
+| [64GB eMMC Module](https://www.hardkernel.com/shop/64gb-emmc-module-h2/) | 29.00 |
+| [Samsung 32GB DDR4](https://www.hardkernel.com/shop/samsung-32gb-ddr4-pc4-25600-so-dimm/) | 99.00 |
 | [Power Supply Unit](https://www.hardkernel.com/shop/15v-4a-power-supply-asia-korea-plug-copy/) | 9.40 |
 | 2 x [SATA/Power cables for disks](https://www.hardkernel.com/shop/sata-data-and-power-cable/) | 6.00 |
 | [Case Type 5](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) | 20.00 |
@@ -35,11 +35,11 @@ Except it no longer has additional PSU for enclosure. Everything is powered usin
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | [SATA splitter](https://pl.aliexpress.com/item/10000330531380.html) | 1.57 |
 | [Power extension](https://pl.aliexpress.com/item/10000330531380.html) | 0.84 |
-| **Sum** | **810.68** | 
+| **Sum** | **791.78** | 
 
 Beware that I spent much more than that... but I was trying various solutions. Above is an effect of my work ;)
 
-Also you don't really need case from Odroid if you want to use self crafted ![case](/case) but that means you have to buy fan and some supports yourself.
+Also you don't really need case from Odroid if you want to use self crafted [case](/case) but that means you have to buy fan and some supports yourself.
 From the [listing](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) you will need these parts:
 
 * G. 1 x 92x92x25mm DC 5V Cooling Fan
@@ -167,7 +167,7 @@ Feel free to ping me if you want me to run any other tests.
 | 1 VM running | 22.3 | ~16 |
 | VM + stress CPU + fio test | 30.8 | ~28 |
 
-Note: Don't try to use HDD instead of SDD with my power supply setup... it won't work almost for sure.
+Note: Don't try to use HDDs instead of SDDs with my power supply setup... it won't work almost for sure.
 
 ### Does it support ECC?
 
@@ -194,10 +194,10 @@ Without disks it's below $500 ;)
 
 Also it should still work pretty decent if you switch:
   * H3+ -> H3 - 36$ less
-  * eMMC 64GB -> 32GB - $13 less
-  * RAM 32GB -> 16GB - $54 less
+  * eMMC 64GB -> 32GB - $10 less
+  * RAM 32GB -> 16GB - $50 less
 
-So without disks it can be built for about $375.
+So without disks it can be built for about $365.
 
 ### Why are two disks directly plugged into Odroid not part of enclosure?
 
