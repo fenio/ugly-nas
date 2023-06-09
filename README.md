@@ -17,7 +17,7 @@ But early case versions were really [ugly](/ugly) and when I eventually created 
 
 Except it no longer has additional PSU for enclosure. Everything is powered using Odroid PSU.
 
-### Cost (November 2022):
+### Cost (June 2023):
 
 | Part  | USD  |
 |-------|--------:|
