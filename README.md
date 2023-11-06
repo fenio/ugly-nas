@@ -37,9 +37,9 @@ Except it no longer has additional PSU for enclosure. Everything is powered usin
 | [Power extension](https://pl.aliexpress.com/item/10000330531380.html) | 0.84 |
 | **Sum** | **791.78** | 
 
-Beware that I spent much more than that... but I was trying various solutions. Above is an effect of my work ;)
+Beware that I spent much more on experimenting with different setups. The final cost above is after refining the best solution.
 
-Also you don't really need case from Odroid if you want to use self crafted [case](/case) but that means you have to buy fan and some supports yourself.
+If you opt for a self-designed [case](/case), purchasing a fan and supports separately is necessary.
 From the [listing](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) you will need these parts:
 
 * G. 1 x 92x92x25mm DC 5V Cooling Fan
@@ -50,7 +50,7 @@ From the [listing](https://www.hardkernel.com/shop/odroid-h3-case-type-5/) you w
 * L. 4 x M5 PC Fan Screws
 * N. 4 x 6mm M3 Truss Head Bolts
 
-You can gather them yourself and save few bucks but maybe buying case from Odroid is simpler way to get all of this ;)
+Assembling these parts individually may save some money, but purchasing the case directly from Odroid is more convenient for acquiring all necessary components in one go.
 
 ### Performance
 
