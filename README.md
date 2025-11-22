@@ -34,7 +34,7 @@ Except it no longer has additional PSU for enclosure. Everything is powered usin
 | 6 x [Profiled SATA cables](https://pl.aliexpress.com/item/1005002384391035.html) | 16.74 |
 | [MOLEX splitter](https://aliexpress.com/item/1005004236892928.html) | 1.71 |
 | [SATA splitter](https://pl.aliexpress.com/item/10000330531380.html) | 1.57 |
-| [Power extension](https://pl.aliexpress.com/item/10000330531380.html) | 0.84 |
+| [Power extension](https://pl.aliexpress.com/item/1005001338498358.html) | 0.84 |
 | **Sum** | **791.78** | 
 
 Beware that I spent much more on experimenting with different setups. The final cost above is after refining the best solution.
